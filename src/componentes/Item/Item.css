@@ -1,0 +1,142 @@
+
+.cardProducto {
+    background-color: black;
+    border-radius: 10px;
+    width: 18rem;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.cardProducto:hover {
+    transform: scale(1.10);
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    
+}
+
+
+
+li:hover {
+    transform: scale(1.05);
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    
+}
+
+input[type="text"] {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    width: 25rem;
+    outline: none;
+    margin-right: 1rem;
+    border: none;
+}
+
+.btnProducto {
+    background-color: purple;
+    color: white;
+    font-size: 13px;
+    width: 8rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+button {
+    font-size: 1.5rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 2rem;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.contButton {
+    width: 2rem;
+    font-size: 1.5rem;
+    padding: 0.5rem 1.5rem;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+
+.addButton {
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    width: 8rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+}
+
+/*Estilo para la lista */
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-top: 3rem;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+
+.imgProducto {
+    width: 15rem;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+    
+}
+li:hover img {
+    transform: scale(1.05);
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+/*Mensaje: producto no disponible */
+h2 {
+    color: white;
+    margin: auto;
+    padding: 2rem;
+}
