@@ -3,7 +3,7 @@ import NavBar from "./componentes/NavBar/NavBar"
 import ItemListContainer from "./componentes/ItemListContainer/ItemListContainer"
 import Categorias from "./componentes/Categorias/Categorias"
 import ItemDetailContainer from "./componentes/ItemDetailContainer/ItemDetailContainer"
-
+import Contador from "./componentes/Contador/Contador"
 
 
 
@@ -14,6 +14,7 @@ const App = () => {
       <TituloPrincipal/> 
       <NavBar/> 
       <ItemListContainer greeting = {"Beauty comes from the inside.Inside the hair salon. La Mala"}/>   
+      <Contador stock={10} inicial={1}/>
       <Categorias/>
       <ItemDetailContainer/>
     </>
