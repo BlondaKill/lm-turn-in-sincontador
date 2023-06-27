@@ -11,6 +11,13 @@
 
 }
 
+.cardProducto h3{
+    color: white;
+}
+
+.cardProducto p{
+    color: white;
+}
 
 .cardProducto:hover {
     transform: scale(1.10);

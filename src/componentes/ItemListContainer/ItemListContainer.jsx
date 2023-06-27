@@ -1,6 +1,10 @@
 import { useState, useEffect } from "react";
 import { getProductos } from "../../asyncmock";
 import ItemList from "../ItemList/ItemList";
+import './ItemListContainer.css';
+
+
+
 
 
 const ItemListContainer = (props) => {
@@ -13,7 +17,7 @@ const ItemListContainer = (props) => {
 }, [])
 return (
     <> 
-      <h2 className='text-center m-5'> {props.greeting} </h2>
+      <h2 className='text-center m-5 nombreDelTitulo'> {props.greeting} </h2>
       <ItemList productos = {productos}/>
     
       </>
