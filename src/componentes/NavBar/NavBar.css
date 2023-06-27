@@ -13,6 +13,14 @@ li{
     cursor: pointer;  
 }
 
+.navBg{
+    background-color: black;  
+}
+
+.otroColor a{
+    color: azure;
+}
+
 
 
 
