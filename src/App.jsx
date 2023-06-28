@@ -13,7 +13,7 @@ const App = () => {
       
       <TituloPrincipal/> 
       <NavBar/> 
-      <ItemListContainer greeting = {"Beauty comes from the inside.Inside the hair salon. La Mala"}/>   
+      <ItemListContainer greeting = {"Beauty comes from the inside.Inside the hair salon. /n La Mala"}/>   
       <Contador stock={10} inicial={1}/>
       <Categorias/>
       <ItemDetailContainer/>

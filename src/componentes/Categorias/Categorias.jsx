@@ -16,7 +16,6 @@ const Categorias = () => {
 
     return (
     <div>
-        <h2>Categoria de Producto:</h2>
         <button onClick ={() => handleClick("Home")}> Home </button>
         <button onClick ={() => handleClick("Servicios")}> Servicios </button>
         <button onClick ={() => handleClick("Precios")}> Precios </button>
