@@ -1,9 +1,9 @@
 const misProductos = [
-    { id: 1, nombre: "aaa", precio: 200, img:"../img/lilas.JPG", idCat: "Blondes"},
-    { id: 2, nombre: "aaa", precio: 200, img:"../img/green2.JPG", idCat:"Blondes"},
-    { id: 3, nombre: "aaa", precio: 200, img:"../img/H.JPG", idCat:"Blondes"},
-    { id: 4, nombre: "aaa", precio: 200, img:"../img/I.JPG", idCat:"Blondes"},
-    { id: 5, nombre: "aaa", precio: 200, img:"../img/orange.JPG", idCat:"Brown"},
+    { id: 1, nombre: "a", precio: 200, img:"../img/lilas.JPG", idCat: "Blondes"},
+    { id: 2, nombre: "b", precio: 200, img:"../img/green2.JPG", idCat:"Blondes"},
+    { id: 3, nombre: "c", precio: 200, img:"../img/H.JPG", idCat:"Blondes"},
+    { id: 4, nombre: "d", precio: 200, img:"../img/I.JPG", idCat:"Blondes"},
+    { id: 5, nombre: "e", precio: 200, img:"../img/orange.JPG", idCat:"Brown"},
     { id: 6, nombre: "aaa", precio: 200, img:"../img/multi.JPG", idCat:"Brown"},    
     { id: 7, nombre: "aaa", precio: 200, img:"../img/rose.JPG", idCat:"Brown"}, 
     { id: 8, nombre: "aaa", precio: 200, img:"../img/water.JPG", idCat:"Brown"}, 
@@ -27,14 +27,15 @@ export const getProductos = () => {
 
 
 export const getUnProducto = (id) => {
-    return new Promise(resolve => {
-        setTimeout( () => {
-            const producto = misProductos.find(prod=> prod.id === id);
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            const producto = misProductos.find(
+                (prod) => prod.id === parseInt(id)   
+            );
             resolve(producto);
-        }, 100)
-    })
-}
-
+        }, 100);
+    });
+ };
 
  
 
