@@ -18,14 +18,14 @@ const NavBar = () => {
 
     <Navbar className="navBg">
       <Container>
-        <Navbar.Brand href="#home" className='log'>La Mala</Navbar.Brand>
+        <Navbar.Brand className='log'>La Mala</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto otroColor">
-            <Nav.Link to="cayegoria/Home"href="#home" className='links'>Home</Nav.Link>
-            <Nav.Link to="cayegoria/Blondes"href="#link" className='links'>Blondes</Nav.Link>
-            <Nav.Link  to="cayegoria/Brown"href="#link" className='links'>Brown</Nav.Link>
-            <Nav.Link to="cayegoria/Darks"href="#link" className='links'>Darks</Nav.Link>                  
+          <Nav.Link to="cayegoria/1" className='links'>Home</Nav.Link>
+            <Nav.Link to="cayegoria/2" className='links'>Blondes</Nav.Link>
+            <Nav.Link  to="cayegoria/3" className='links'>Brown</Nav.Link>
+            <Nav.Link to="cayegoria/4" className='links'>Darks</Nav.Link>                  
           </Nav>
         </Navbar.Collapse>
         <CartWidget/>
