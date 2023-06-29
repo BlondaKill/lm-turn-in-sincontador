@@ -15,11 +15,11 @@ const Categorias = () => {
     }
 
     return (
-    <div>
-        <button onClick ={() => handleClick("Home")}> Home </button>
-        <button onClick ={() => handleClick("Servicios")}> Servicios </button>
-        <button onClick ={() => handleClick("Precios")}> Precios </button>
-        <button onClick ={() => handleClick("Tienda")}> Tienda </button>
+        <div>
+        <button onClick ={() => handleClick("Home")}>Home</button>
+        <button onClick ={() => handleClick("Blondes")}>Blondes</button>
+        <button onClick ={() => handleClick("Brown")}>Brown</button>
+        <button onClick ={() => handleClick("Darks")}>Darks</button>
     </div>
     ) 
 }

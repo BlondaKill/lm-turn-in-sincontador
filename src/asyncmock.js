@@ -1,16 +1,16 @@
 const misProductos = [
-    { id: 1, nombre: "aaa", precio: 200, img:"../img/lilas.JPG"},
-    { id: 2, nombre: "aaa", precio: 200, img:"../img/green2.JPG"},
-    { id: 3, nombre: "aaa", precio: 200, img:"../img/H.JPG"},
-    { id: 4, nombre: "aaa", precio: 200, img:"../img/I.JPG"},
-    { id: 5, nombre: "aaa", precio: 200, img:"../img/orange.JPG"},
-    { id: 6, nombre: "aaa", precio: 200, img:"../img/multi.JPG"},    
-    { id: 7, nombre: "aaa", precio: 200, img:"../img/rose.JPG"}, 
-    { id: 8, nombre: "aaa", precio: 200, img:"../img/water.JPG"}, 
-    { id: 9, nombre: "aaa", precio: 200, img:"../img/hair2.JPG"}, 
-    { id: 10, nombre: "aaa", precio: 200, img:"../img/orange2.JPG"}, 
-    { id: 11, nombre: "aaa", precio: 200, img:"../img/rose2.JPG"}, 
-    { id: 12, nombre: "aaa", precio: 200, img:"../img/J.JPG"}, 
+    { id: Blondes, nombre: "aaa", precio: 200, img:"../img/lilas.JPG", idCat: Blondes},
+    { id: Blondes, nombre: "aaa", precio: 200, img:"../img/green2.JPG", idCat:Blondes},
+    { id: Blondes, nombre: "aaa", precio: 200, img:"../img/H.JPG", idCat:Blondes},
+    { id: Blondes, nombre: "aaa", precio: 200, img:"../img/I.JPG", idCat:Blondes},
+    { id: Brown, nombre: "aaa", precio: 200, img:"../img/orange.JPG", idCat:Brown},
+    { id: Brown, nombre: "aaa", precio: 200, img:"../img/multi.JPG", idCat:Brown},    
+    { id: Brown, nombre: "aaa", precio: 200, img:"../img/rose.JPG", idCat:Brown}, 
+    { id: Brown, nombre: "aaa", precio: 200, img:"../img/water.JPG", idCat:Brown}, 
+    { id: Darks, nombre: "aaa", precio: 200, img:"../img/hair2.JPG", idCat:Darks}, 
+    { id: Darks, nombre: "aaa", precio: 200, img:"../img/orange2.JPG", idCat:Darks}, 
+    { id: Darks, nombre: "aaa", precio: 200, img:"../img/rose2.JPG", idCat:Darks}, 
+    { id: Darks, nombre: "aaa", precio: 200, img:"../img/J.JPG", idCat:Darks}, 
     
     
     
@@ -31,5 +31,22 @@ export const getUnProducto = (id) => {
             resolve(producto);
 
         }, 2000)
+    })
+}
+
+
+
+
+
+
+
+export const getProductosPorCategoria = (idCategoria) => {
+    return new Promise ( resolve => {
+        setTimeout( () => {
+            const productosCategoria = misProductos.filter(prod => prod.idCat === idCategoria);
+            resolve(productosCategoria);
+
+    }, 2000)
+
     })
 }
