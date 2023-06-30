@@ -1,32 +1,28 @@
-
-header{
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid white;
-    
+
 }
 
-li{
-    display: inline-block;    
-    cursor: pointer;  
+li {
+    display: inline-block;
+    cursor: pointer;
 }
 
-.navBg{
-    background-color: black;  
+.navBg {
+    background-color: black;
 }
 
-.otroColor a{
+.otroColor a {
     color: azure;
 }
 
-.links{
+.links {
     color: white;
 }
-.log navbar-brand{
+
+.log navbar-brand {
     color: white
 }
-
-
-
-

@@ -11,18 +11,15 @@ const ItemListContainer = (props) => {
     useEffect(() => {
         const funcion = idCategoria ? getProductosPorCategoria : getProductos;
 
-        funcion(idCategoria)
-            .then(res => setProductos(res))
-
-    }, [idCategoria])
-
+        funcion(idCategoria).then((res) => setProductos(res));
+    }, [idCategoria]);
 
     return (
         <>
             <h2> {props.greeting} </h2>
             <ItemList productos={productos} />
         </>
-    )
-}
+    );
+};
 
-export default ItemListContainer
+export default ItemListContainer;

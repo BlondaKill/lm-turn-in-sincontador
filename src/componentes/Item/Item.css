@@ -1,4 +1,3 @@
-
 .cardProducto {
     background-color: black;
     border-radius: 10px;
@@ -8,19 +7,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
-.cardProducto h3{
+.cardProducto h3 {
     color: white;
 }
 
-.cardProducto p{
+.cardProducto p {
     color: white;
 }
 
 .cardProducto:hover {
-    transform: scale(1.10);
+    transform: scale(1.1);
 }
 
 li {
@@ -29,10 +27,7 @@ li {
     align-items: center;
     text-align: center;
     color: white;
-    
 }
-
-
 
 li:hover {
     transform: scale(1.05);
@@ -47,7 +42,6 @@ form {
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
-    
 }
 
 input[type="text"] {
@@ -69,12 +63,12 @@ input[type="text"] {
     border: none;
     cursor: pointer;
 }
+
 .btnProducto:hover {
     background: #ff96ad;
-    box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 50px #ff96ad, 0 0 200px #ff96ad;
-
+    box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 50px #ff96ad,
+        0 0 200px #ff96ad;
 }
-
 
 button {
     font-size: 1.5rem;
@@ -87,6 +81,7 @@ button {
     outline: none;
     border: none;
 }
+
 .contButton {
     width: 2rem;
     font-size: 1.5rem;
@@ -108,7 +103,6 @@ button {
     cursor: pointer;
 }
 
-
 /*Estilo para la lista */
 
 ul {
@@ -128,7 +122,6 @@ li {
     color: white;
 }
 
-
 .imgProducto {
     width: 15rem;
     height: auto;
@@ -136,8 +129,8 @@ li {
     border-radius: 0.5rem;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     transition: all 0.3s;
-    
 }
+
 li:hover img {
     transform: scale(1.05);
 }
