@@ -24,7 +24,7 @@ const App = () => {
             element={
               <ItemListContainer
                 greeting={
-                  "eauty Comes From The Inside, Inside The Hair Salon. La Mala"
+                  "Beauty Comes From The Inside, Inside The Hair Salon. La Mala"
                 }
               />
             }

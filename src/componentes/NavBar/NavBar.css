@@ -3,6 +3,7 @@ header {
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid white;
+    
 
 }
 
@@ -11,12 +12,14 @@ li {
     cursor: pointer;
 }
 
+
 .navBg {
     background-color: black;
 }
 
 .otroColor a {
     color: azure;
+    
 }
 
 .links {

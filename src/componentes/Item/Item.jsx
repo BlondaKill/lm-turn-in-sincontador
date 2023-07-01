@@ -10,7 +10,7 @@ const Item = ({ id, nombre, precio, img }) => {
       <p>ID: {id} </p>
       <Link to={`/item/${id}`} className="btnProducto">
         {" "}
-        Ver Detalles{" "}
+        Ver Detalle{" "}
       </Link>
     </div>
   );
