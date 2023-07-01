@@ -5,12 +5,11 @@ const Item = ({ id, nombre, precio, img }) => {
   return (
     <div className="cardProducto">
       <img className="imgProducto" src={img} alt={nombre} />
-      <h3>Nombre: {nombre} </h3>
-      <p>Precio:{precio} </p>
-      <p>ID: {id} </p>
+      <h3 className="front"> {nombre} </h3>
+      <p className="front1"> ${precio} </p>
+      <p className="front2">ID: {id} </p>
       <Link to={`/item/${id}`} className="btnProducto">
-        {" "}
-        Ver Detalle{" "}
+        {" "}Ver Detalle{" "}
       </Link>
     </div>
   );
