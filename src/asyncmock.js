@@ -42,7 +42,7 @@ const misProductos = [{
     },
     {
         id: 7,
-        nombre: "John Master's Organics",
+        nombre: "Master's Organics",
         precio: 200,
         img: "../img/rose.JPG",
         idCat: "Brunette"
@@ -119,77 +119,77 @@ const misProductos = [{
     },
     {
         id: 18,
-        nombre: "aaa",
+        nombre: "Monat C & L",
         precio: 200,
         img: "../img/b0.JPG",
         idCat: "Blondes"
     },
     {
         id: 19,
-        nombre: "aaa",
+        nombre: "India Hair Icon",
         precio: 200,
         img: "../img/br1.JPG",
         idCat: "Brunette"
     },
     {
         id: 20,
-        nombre: "aaa",
+        nombre: "FURTERER Curbicia",
         precio: 200,
         img: "../img/green2.JPG",
         idCat: "Darks"
     },
     {
         id: 21,
-        nombre: "aaa",
+        nombre: "Amika Kure Hair",
         precio: 200,
-        img: "../img/br85.JPG",
+        img: "../img/fix.jpg",
         idCat: "Brunette"
     },
     {
         id: 22,
-        nombre: "",
+        nombre: "BYREDO",
         precio: 200,
         img: "../img/hair2.JPG",
         idCat: "Darks"
     },
     {
         id: 23,
-        nombre: "",
+        nombre: "Cream Hair Mask",
         precio: 200,
         img: "../img/I.JPG",
         idCat: "Brunette"
     },
     {
         id: 24,
-        nombre: "aaa",
+        nombre: "Amika Wizard",
         precio: 200,
-        img: "../img/b2.JPG",
+        img: "../img/threes.jpg",
         idCat: "Blondes"
     },
     {
         id: 25,
-        nombre: "aaa",
+        nombre: "Aesop Avocado",
         precio: 200,
         img: "../img/J.JPG",
         idCat: "Darks"
     },
     {
         id: 26,
-        nombre: "aaa",
+        nombre: "Schwarzkopf Palette",
         precio: 200,
         img: "../img/b1.JPG",
         idCat: "Blondes"
     },
     {
         id: 27,
-        nombre: "aaa",
+        nombre: "Schwarzkopf Ultime",
         precio: 200,
         img: "../img/br11.JPG",
         idCat: "Brunette"
     },
     {
         id: 28,
-        nombre: "aaa",
+        nombre: "Schwarzkopf LIVE",
         precio: 200,
         img: "../img/d5.JPG",
         idCat: "Darks"
