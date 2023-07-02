@@ -16,7 +16,7 @@ const NavBar = () => {
                     </li>
 
                     <li>
-                        <NavLink  to="/categoria/Brown"> Brown </NavLink>
+                        <NavLink  to="/categoria/Brunette"> Brunette </NavLink>
                     </li>
 
                     <li>

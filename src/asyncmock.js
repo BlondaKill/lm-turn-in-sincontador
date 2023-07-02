@@ -1,118 +1,118 @@
 const misProductos = [{
         id: 1,
-        nombre: "a",
+        nombre: "Blonde Revival",
         precio: 200,
         img: "../img/lilas.JPG",
         idCat: "Blondes",
     },
     {
         id: 2,
-        nombre: "b",
+        nombre: "Aveda Shampoo",
         precio: 200,
         img: "../img/br9.JPG",
-        idCat: "Brown",
+        idCat: "Brunette",
     },
     {
         id: 3,
-        nombre: "c",
+        nombre: "Ouai Wax",
         precio: 200,
         img: "../img/H.JPG",
         idCat: "Blondes"
     },
     {
         id: 4,
-        nombre: "d",
+        nombre: "Aveda Conditioner",
         precio: 200,
         img: "../img/d1.JPG",
         idCat: "Darks"
     },
     {
         id: 5,
-        nombre: "e",
+        nombre: "Pulp Detox",
         precio: 200,
         img: "../img/orange.JPG",
-        idCat: "Brown"
+        idCat: "Brunette"
     },
     {
         id: 6,
-        nombre: "aaa",
+        nombre: "Elgon Haircolor",
         precio: 200,
         img: "../img/b8.JPG",
         idCat: "Blondes",
     },
     {
         id: 7,
-        nombre: "aaa",
+        nombre: "John Master's Organics",
         precio: 200,
         img: "../img/rose.JPG",
-        idCat: "Brown"
+        idCat: "Brunette"
     },
     {
         id: 8,
-        nombre: "aaa",
+        nombre: "Elixir Ultime Huile",
         precio: 200,
         img: "../img/b11.JPG",
         idCat: "Blondes",
     },
     {
         id: 9,
-        nombre: "aaa",
+        nombre: "OGX Butter Cream",
         precio: 200,
         img: "../img/orange2.JPG",
         idCat: "Darks",
     },
     {
         id: 10,
-        nombre: "aaa",
+        nombre: "OGX Coconut Oil ",
         precio: 200,
         img: "../img/br10.JPG",
-        idCat: "Brown",
+        idCat: "Brunette",
     },
     {
         id: 11,
-        nombre: "aaa",
+        nombre: "Roses Cream Hair",
         precio: 200,
         img: "../img/rose2.JPG",
         idCat: "Darks",
     },
     {
         id: 12,
-        nombre: "aaa",
+        nombre: "Maui Moisture",
         precio: 200,
         img: "../img/b9.JPG",
         idCat: "Blondes"
     },
     {
         id: 13,
-        nombre: "aaa",
+        nombre: "Tidal Water Cream",
         precio: 200,
         img: "../img/water.JPG",
-        idCat: "Brown"
+        idCat: "Brunette"
     },
     {
         id: 14,
-        nombre: "aaa",
+        nombre: "Light Hydration",
         precio: 200,
         img: "../img/b7.JPG",
         idCat: "Blondes"
     },
     {
         id: 15,
-        nombre: "aaa",
+        nombre: "Heal & Hydrate Kit",
         precio: 200,
         img: "../img/multi.JPG",
-        idCat: "Brown"
+        idCat: "Brunette"
     },
     {
         id: 16,
-        nombre: "aaa",
+        nombre: "Midnight Amethyst",
         precio: 200,
         img: "../img/d7.JPG",
         idCat: "Darks"
     },
     {
         id: 17,
-        nombre: "aaa",
+        nombre: "Bonder Plex",
         precio: 200,
         img: "../img/b15.JPG",
         idCat: "Blondes"
@@ -129,7 +129,7 @@ const misProductos = [{
         nombre: "aaa",
         precio: 200,
         img: "../img/br1.JPG",
-        idCat: "Brown"
+        idCat: "Brunette"
     },
     {
         id: 20,
@@ -143,21 +143,21 @@ const misProductos = [{
         nombre: "aaa",
         precio: 200,
         img: "../img/br85.JPG",
-        idCat: "Brown"
+        idCat: "Brunette"
     },
     {
         id: 22,
-        nombre: "aaa",
+        nombre: "",
         precio: 200,
         img: "../img/hair2.JPG",
         idCat: "Darks"
     },
     {
         id: 23,
-        nombre: "aaa",
+        nombre: "",
         precio: 200,
         img: "../img/I.JPG",
-        idCat: "Brown"
+        idCat: "Brunette"
     },
     {
         id: 24,
@@ -185,7 +185,7 @@ const misProductos = [{
         nombre: "aaa",
         precio: 200,
         img: "../img/br11.JPG",
-        idCat: "Brown"
+        idCat: "Brunette"
     },
     {
         id: 28,
