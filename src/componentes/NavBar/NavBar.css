@@ -3,27 +3,32 @@ header {
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid white;
+    height: 100px; 
     
-
 }
 
 li {
     display: inline-block;
     cursor: pointer;
+    
+    
 }
+
 
 
 .navBg {
     background-color: black;
+   
 }
 
 .otroColor a {
-    color: azure;
+    color: white;
     
 }
 
 .links {
     color: white;
+   
 }
 
 .log navbar-brand {
