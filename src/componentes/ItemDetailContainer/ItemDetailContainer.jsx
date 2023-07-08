@@ -9,14 +9,14 @@ const ItemDetailContainer = () => {
   const { idItem } = useParams();
 
   useEffect(() => {
-    getUnProducto(idItem).then((res) => setProducto(res));
+    getUnProducto(idItem).then(res => setProducto(res));
   }, [idItem]);
 
   return (
     <div>
       <ItemDetail {...producto} />
     </div>
-  );
-};
+  )
+}
 
 export default ItemDetailContainer;

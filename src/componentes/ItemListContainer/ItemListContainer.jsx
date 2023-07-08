@@ -13,7 +13,7 @@ const ItemListContainer = (props) => {
     useEffect(() => {
         const funcion = idCategoria ? getProductosPorCategoria : getProductos;
 
-        funcion(idCategoria).then((res) => setProductos(res));
+        funcion(idCategoria).then(res => setProductos(res));
     }, [idCategoria]);
 
     return (
