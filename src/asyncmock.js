@@ -2,6 +2,7 @@ const misProductos = [{
         id: 1,
         nombre: "Blonde Revival",
         precio: 200,
+        stock: 5,
         img: "../img/lilas.JPG",
         idCat: "Blondes",
     },
@@ -9,6 +10,7 @@ const misProductos = [{
         id: 2,
         nombre: "Aveda Shampoo",
         precio: 200,
+        stock: 5,
         img: "../img/br9.JPG",
         idCat: "Brunette",
     },
@@ -16,6 +18,7 @@ const misProductos = [{
         id: 3,
         nombre: "Ouai Wax",
         precio: 200,
+        stock: 5,
         img: "../img/H.JPG",
         idCat: "Blondes"
     },
@@ -23,6 +26,7 @@ const misProductos = [{
         id: 4,
         nombre: "Aveda Conditioner",
         precio: 200,
+        stock: 5,
         img: "../img/d1.JPG",
         idCat: "Darks"
     },
@@ -30,6 +34,7 @@ const misProductos = [{
         id: 5,
         nombre: "Pulp Detox",
         precio: 200,
+        stock: 5,
         img: "../img/orange.JPG",
         idCat: "Brunette"
     },
@@ -37,6 +42,7 @@ const misProductos = [{
         id: 6,
         nombre: "Elgon Haircolor",
         precio: 200,
+        stock: 5,
         img: "../img/b8.JPG",
         idCat: "Blondes",
     },
@@ -44,6 +50,7 @@ const misProductos = [{
         id: 7,
         nombre: "Master's Organics",
         precio: 200,
+        stock: 5,
         img: "../img/rose.JPG",
         idCat: "Brunette"
     },
@@ -51,6 +58,7 @@ const misProductos = [{
         id: 8,
         nombre: "Elixir Ultime Huile",
         precio: 200,
+        stock: 5,
         img: "../img/b11.JPG",
         idCat: "Blondes",
     },
@@ -58,6 +66,7 @@ const misProductos = [{
         id: 9,
         nombre: "OGX Butter Cream",
         precio: 200,
+        stock: 5,
         img: "../img/orange2.JPG",
         idCat: "Darks",
     },
@@ -65,6 +74,7 @@ const misProductos = [{
         id: 10,
         nombre: "OGX Coconut Oil ",
         precio: 200,
+        stock: 5,
         img: "../img/br10.JPG",
         idCat: "Brunette",
     },
@@ -72,6 +82,7 @@ const misProductos = [{
         id: 11,
         nombre: "Roses Cream Hair",
         precio: 200,
+        stock: 5,
         img: "../img/rose2.JPG",
         idCat: "Darks",
     },
@@ -79,6 +90,7 @@ const misProductos = [{
         id: 12,
         nombre: "Maui Moisture",
         precio: 200,
+        stock: 5,
         img: "../img/b9.JPG",
         idCat: "Blondes"
     },
@@ -86,6 +98,7 @@ const misProductos = [{
         id: 13,
         nombre: "Tidal Water Cream",
         precio: 200,
+        stock: 5,
         img: "../img/water.JPG",
         idCat: "Brunette"
     },
@@ -93,6 +106,7 @@ const misProductos = [{
         id: 14,
         nombre: "Light Hydration",
         precio: 200,
+        stock: 5,
         img: "../img/b7.JPG",
         idCat: "Blondes"
     },
@@ -100,6 +114,7 @@ const misProductos = [{
         id: 15,
         nombre: "Heal & Hydrate Kit",
         precio: 200,
+        stock: 5,
         img: "../img/multi.JPG",
         idCat: "Brunette"
     },
@@ -107,6 +122,7 @@ const misProductos = [{
         id: 16,
         nombre: "Midnight Amethyst",
         precio: 200,
+        stock: 5,
         img: "../img/d7.JPG",
         idCat: "Darks"
     },
@@ -114,13 +130,15 @@ const misProductos = [{
         id: 17,
         nombre: "Bonder Plex",
         precio: 200,
+        stock: 5,
         img: "../img/b15.JPG",
         idCat: "Blondes"
     },
     {
         id: 18,
-        nombre: "Monat C & L",
+        nombre: "Monat L & L",
         precio: 200,
+        stock: 5,
         img: "../img/b0.JPG",
         idCat: "Blondes"
     },
@@ -128,6 +146,7 @@ const misProductos = [{
         id: 19,
         nombre: "India Hair Icon",
         precio: 200,
+        stock: 5,
         img: "../img/br1.JPG",
         idCat: "Brunette"
     },
@@ -135,6 +154,7 @@ const misProductos = [{
         id: 20,
         nombre: "FURTERER Curbicia",
         precio: 200,
+        stock: 5,
         img: "../img/green2.JPG",
         idCat: "Darks"
     },
@@ -142,6 +162,7 @@ const misProductos = [{
         id: 21,
         nombre: "Amika Kure Hair",
         precio: 200,
+        stock: 5,
         img: "../img/fix.jpg",
         idCat: "Brunette"
     },
@@ -149,6 +170,7 @@ const misProductos = [{
         id: 22,
         nombre: "BYREDO",
         precio: 200,
+        stock: 5,
         img: "../img/hair2.JPG",
         idCat: "Darks"
     },
@@ -156,13 +178,16 @@ const misProductos = [{
         id: 23,
         nombre: "Cream Hair Mask",
         precio: 200,
+        stock: 10,
         img: "../img/I.JPG",
         idCat: "Brunette"
+        
     },
     {
         id: 24,
         nombre: "Amika Wizard",
         precio: 200,
+        stock: 5,
         img: "../img/threes.jpg",
         idCat: "Blondes"
     },
@@ -170,6 +195,7 @@ const misProductos = [{
         id: 25,
         nombre: "Aesop Avocado",
         precio: 200,
+        stock: 5,
         img: "../img/J.JPG",
         idCat: "Darks"
     },
@@ -177,6 +203,7 @@ const misProductos = [{
         id: 26,
         nombre: "Schwarzkopf Palette",
         precio: 200,
+        stock: 5,
         img: "../img/b1.JPG",
         idCat: "Blondes"
     },
@@ -184,6 +211,7 @@ const misProductos = [{
         id: 27,
         nombre: "Schwarzkopf Ultime",
         precio: 200,
+        stock: 5,
         img: "../img/br11.JPG",
         idCat: "Brunette"
     },
@@ -191,6 +219,7 @@ const misProductos = [{
         id: 28,
         nombre: "Schwarzkopf LIVE",
         precio: 200,
+        stock: 5,
         img: "../img/d5.JPG",
         idCat: "Darks"
     },
