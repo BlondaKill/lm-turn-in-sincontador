@@ -14,9 +14,9 @@ const App = () => {
         <NavBar />
         <Routes>
           <Route path="/" element={<ItemListContainer greeting={
-                  "Beauty Comes From The Inside. Inside The Hair Salon . La Mala"} />}/>
+                  "BEAUTY COMES FROM THE INSIDE. INSIDE THE HAIR SALON . LA MALA"} />}/>
           <Route path="/categoria/:idCategoria" element={<ItemListContainer greeting={
-                  "Beauty Comes From The Inside. Inside The Hair Salon. La Mala"}/>}/>
+                  "BEAUTY COMES FROM THE INSIDE. INSIDE THE HAIR SALON . LA MALA"}/>}/>
           <Route path="/item/:idItem" element={<ItemDetailContainer />} />
           <Route path="/cart" element={<Cart/>} />
           <Route path="*" element={<h2>Site Under Construction</h2>} />
