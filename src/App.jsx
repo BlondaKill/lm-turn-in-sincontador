@@ -8,6 +8,7 @@ import Cart from "./componentes/Cart/Cart";
 
 
 import "./App.css";
+import Checkout from "./componentes/Checkout/Checkout";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
                   "BEAUTY COMES FROM THE INSIDE. INSIDE THE HAIR SALON . LA MALA"}/>}/>
           <Route path="/item/:idItem" element={<ItemDetailContainer />} />
           <Route path="/cart" element={<Cart/>} />
+          <Route path="/checkout" element={<Checkout/>} />
           
           <Route path="*" element={<h2>Site Under Construction</h2>} />
         </Routes>
