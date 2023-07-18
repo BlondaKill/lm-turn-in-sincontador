@@ -31,6 +31,8 @@ const ItemListContainer = (props) => {
             <ItemList productos={productos} />
         </>
     );
+   
 };
+
 
 export default ItemListContainer;

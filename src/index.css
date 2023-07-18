@@ -111,11 +111,13 @@ p{
     
 }
 
+
 img{
   width: 300px;
   border-radius: 10px;
   object-position: 0 0;
 }
+
 
 h4 {
   color: white;
@@ -127,6 +129,7 @@ p.end{
 
 .del{
   font-family: 'Anton';
+  
 }
 .cheko{
   font-family: 'Anton';

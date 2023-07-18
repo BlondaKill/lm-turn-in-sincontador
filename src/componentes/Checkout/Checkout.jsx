@@ -2,6 +2,7 @@ import { useState, useContext } from "react";
 import { CartContext } from "../../context/CartContext";
 import { db } from "../../services/config";
 import { collection, addDoc } from "firebase/firestore";
+import "./Checkout.css";
 
 
 const Checkout = () => {
@@ -67,7 +68,7 @@ const Checkout = () => {
 
         return (
     <div>
-        <h2> Checkout </h2>
+        <h2 className="fin"> Checkout </h2>
         <form onSubmit={manejadorFormulario}>
             {
                 carrito.map(producto => (
@@ -82,11 +83,11 @@ const Checkout = () => {
             <hr />
 
             <div className="form-group">
-                <label className="form" style={{ color: "white"}} htmlFor=""> Nombre </label>
+                <label className="form" style={{ color: "white"}} htmlFor=""> Nombre  </label>
                 <input type="text" value={nombre} onChange={(e)=> setNombre(e.target.value)} />
             </div>    
             <div className="form-group" >
-                <label className="form" style={{ color: "white"}} htmlFor=""> Apellido </label>
+                <label className="form" style={{ color: "white"}} htmlFor=""> Apellido  </label>
                 <input type="text" value={apellido} onChange={(e)=> setApellido(e.target.value)}/>
             </div> 
 
@@ -96,12 +97,12 @@ const Checkout = () => {
             </div> 
 
             <div className="form-group">
-                <label className="form" style={{ color: "white"}} htmlFor=""> Email </label>
+                <label className="form" style={{ color: "white"}} htmlFor=""> Email  </label>
                 <input type="email"  value={email} onChange={(e)=> setEmail(e.target.value)}/>
             </div>  
 
             <div className="form-group">
-                <label className="form" style={{ color: "white"}} htmlFor=""> Email Confirmacion </label>
+                <label className="form" style={{ color: "white"}} htmlFor=""> Confirm  </label>
                 <input type="email"  value={emailConfirmacion} onChange={(e)=> setEmailConfirmacion(e.target.value)}/>
             </div>  
 
