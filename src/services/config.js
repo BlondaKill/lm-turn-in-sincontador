@@ -1,10 +1,10 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
-
+//"AIzaSyBnI4w3sES-1GS3yUpW21AmLcePHPZReDQ"
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBnI4w3sES-1GS3yUpW21AmLcePHPZReDQ",
+  apiKey: import.meta.env.VITE_FIREBASE,
   authDomain: "tpfinalreact-5bf56.firebaseapp.com",
   projectId: "tpfinalreact-5bf56",
   storageBucket: "tpfinalreact-5bf56.appspot.com",
