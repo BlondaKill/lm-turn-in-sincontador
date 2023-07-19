@@ -5,7 +5,6 @@ import "./CartWidget.css";
 
 const CartWidget = () => {
   const {cantidadTotal} = useContext(CartContext);
- // const imgCarrito = "../img/b.png";//
 
   return (
     <div>

@@ -9,7 +9,7 @@ const Cart = () => {
     if (cantidadTotal === 0) {
         return (
             <>
-                <h2> No hay productos en el carrito </h2>
+                <h2>  Empty Cart </h2>
                 <Link className={"checko"} to="/"> Detail </Link>
             </>
         )

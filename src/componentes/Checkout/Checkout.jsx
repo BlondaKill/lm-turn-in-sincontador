@@ -1,7 +1,7 @@
 import { useState, useContext } from "react";
 import { CartContext } from "../../context/CartContext";
 import { db } from "../../services/config";
-import { collection, addDoc } from "firebase/firestore";
+import { collection, addDoc, updateDoc, DocumentSnapshot, getDoc } from "firebase/firestore";
 import "./Checkout.css";
 
 
@@ -22,7 +22,6 @@ const Checkout = () => {
         event.preventDefault();
 
 
-//Verificacion de campos
     if( !nombre || !apellido || !telefono || !email || !emailConfirmacion) {
         setError("Completa todos los campos");
         return;
@@ -48,25 +47,36 @@ const Checkout = () => {
     };
 
 
-    //guardar la orden en la DB
-
-    addDoc(collection(db, "ordenes"), orden)
-        .then(docRef => {
-            setOrdenId(docRef.id);
-            vaciarCarrito();
+    Promise.all(
+        orden.items.map(async (productoOrden) => {
+            const productoRef = doc(db, "inventario", productoOrden.id);
+            const productoDoc = await getDoc(productoRef);
+            const stockActual = productoDoc.data().stock;
+            await updateDoc(productoRef, {
+                stock: stockActual - productoOrden.cantidad,
+            })
 
         })
-        .catch(error => {
-            console.log("Error al crear la orden", error);
-            setError("Se produjo un error al crear la orden");
-        })
-
-    }
-
-
-
-
-        return (
+    )
+    
+        .then(() => {
+            addDoc(collection(db, "ordenes"), orden)
+                .then((docRef) => {
+                    setOrdenId(docRef.id);
+                    vaciarCarrito();
+                })
+                .catch((error) => {
+                    console.log("Fail to create order", error);
+                    setError("Fail to create order, try later.");
+                });
+    })
+            .catch((error) => {
+            console.log("Can't update stock", error);
+            setError("Can't update stock, try later");
+    })
+}       
+            
+return (
     <div>
         <h2 className="fin"> Checkout </h2>
         <form onSubmit={manejadorFormulario}>
@@ -75,12 +85,13 @@ const Checkout = () => {
                     <div key={producto.item.id}>
                         <p> {producto.item.nombre} x {producto.cantidad} </p>
                         <p> {producto.item.precio} </p>
-                        
                         <hr />
+
                     </div>
                 ))
-            }
-            <hr />
+            }           
+            <strong>Cant Total: {cantidadTotal}</strong>
+            <hr/>
 
             <div className="form-group">
                 <label className="form" style={{ color: "white"}} htmlFor=""> Nombre  </label>
@@ -116,11 +127,11 @@ const Checkout = () => {
 
         {
             ordenId && (
-                <strong> Gracias por tu compra! Numero de orden {ordenId}</strong>
+                <strong> Thanks! Number order {ordenId}</strong>
             )
         }
     </div>
-  )
+    )
 }
 
 export default Checkout
