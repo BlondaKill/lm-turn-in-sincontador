@@ -1,7 +1,6 @@
 .cardProducto {
     background-color: black;
     border-radius: 10px;
-    box-shadow: 0 4px 8px;
     width: 18rem;
     padding: 1rem;
     margin: 1rem;
@@ -106,6 +105,9 @@ label.form{
     cursor: pointer;
 }
 
+.strong {
+    font-size: 2rem;
+}
 .btnProducto {
     background-color: rgb(58, 57, 57);
     color: white;
