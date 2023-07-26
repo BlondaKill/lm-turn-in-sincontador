@@ -18,7 +18,7 @@ const App = () => {
         <NavBar />
         <Routes>
           <Route path="/" element={<ItemListContainer greeting={
-                  "BEAUTY COMES FROM THE INSIDE. INSIDE THE HAIR SALON . LA MALA"} />}/>
+                  "BEAUTY COMES FROM THE INSIDE. INSIDE THE HAIR SALON. LA MALA"} />}/>
           <Route path="/categoria/:idCategoria" element={<ItemListContainer greeting={
                   "BEAUTY COMES FROM THE INSIDE. INSIDE THE HAIR SALON . LA MALA"}/>}/>
           <Route path="/item/:idItem" element={<ItemDetailContainer />} />

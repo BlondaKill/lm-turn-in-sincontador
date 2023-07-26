@@ -143,10 +143,20 @@ p.end{
 
 .del{
   font-family: 'Anton';
+  background-color: #c1101a;
+  border-radius: 5px;
+  margin-top: 2rem;
+  margin-left: 2rem;
   
 }
 .cheko{
   font-family: 'Anton';
+  background-color: #c1101a;
+  border-radius: 5px;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  color: white;
+  height: 15px;
 }
 .fin{
   font-family: 'Anton';
