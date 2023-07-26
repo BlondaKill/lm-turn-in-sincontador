@@ -158,7 +158,8 @@ button {
     color: white;
     font-size: 14px;
     width: 8rem;
-    border-radius: 10px;
+    border-radius: 15px;
+    margin-bottom: 3rem;
     border: none;
     cursor: pointer;
 }

@@ -83,15 +83,18 @@ return (
             {
                 carrito.map(producto => (
                     <div key={producto.item.id}>
-                        <p> {producto.item.nombre} x {producto.cantidad} </p>
-                        <p> {producto.item.precio} </p>
+                        <p> {producto.item.nombre} x {producto.cantidad} unidades. </p>
+                        <hr />
+                        <p> Precio Unitario: ${producto.item.precio} </p>
                         <hr />
 
                     </div>
                 ))
             }           
-            <strong>Cant Total: {cantidadTotal}</strong>
+            <p> Items: {cantidadTotal}</p>
             <hr/>
+
+            <p> Total Compra: ${total}</p>
 
             <div className="form-group">
                 <label className="form" style={{ color: "white"}} htmlFor=""> Nombre  </label>
