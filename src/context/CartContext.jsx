@@ -15,7 +15,7 @@ export const CarritoProvider = ({ children }) => {
     console.log(carrito);
 
 
-    //func => add prod => not doubles
+   
     const agregarProducto = (item, cantidad) => {
         const productoExistente = carrito.find(prod => prod.item.id === item.id);
 
@@ -61,7 +61,7 @@ export const CarritoProvider = ({ children }) => {
             {children}
         </CartContext.Provider>
     )
-    // value => valor actual cart y los metodos a los componentes de mi app q lo necesiten
+
 
 }
 

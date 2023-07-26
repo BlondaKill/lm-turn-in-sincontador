@@ -10,7 +10,7 @@ const Cart = () => {
         return (
             <>
                 <h2>  Empty Cart </h2>
-                <Link className={"checko"} to="/"> Detail </Link>
+                <Link className={"checko"} to="/"> Return </Link>
             </>
         )
     }

@@ -160,6 +160,7 @@ p.end {
   margin-left: 2rem;
   color: white;
   height: 15px;
+  
 }
 
 .fin {
@@ -179,5 +180,10 @@ p.end {
 
 .checko {
   font-family: 'Anton';
-
+  color: red;
+  margin-left: 3rem;
+  display: inline-block;
+  cursor: pointer;
+  font-family: 'Anton';
+  font-size: 30px;
 }
