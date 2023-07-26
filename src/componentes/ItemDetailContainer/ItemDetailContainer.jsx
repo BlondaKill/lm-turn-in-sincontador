@@ -13,12 +13,12 @@ const ItemDetailContainer = () => {
     const nuevoDoc = doc(db, "inventario", idItem);
 
     getDoc(nuevoDoc)
-        .then(res => {
-          const data = res.data();
-          const nuevoProducto = {id: res.id, ...data}
-          setProducto(nuevoProducto);
-        })
-        .catch(error => console.log(error))
+      .then(res => {
+        const data = res.data();
+        const nuevoProducto = { id: res.id, ...data }
+        setProducto(nuevoProducto);
+      })
+      .catch(error => console.log(error))
   }, [idItem])
 
 

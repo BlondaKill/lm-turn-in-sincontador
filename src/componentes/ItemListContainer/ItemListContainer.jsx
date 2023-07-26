@@ -15,9 +15,9 @@ const ItemListContainer = (props) => {
 
         getDocs(misProductos)
             .then(res => {
-                const nuevosProductos = res.docs.map( doc => {
+                const nuevosProductos = res.docs.map(doc => {
                     const data = doc.data()
-                    return {id: doc.id, ...data}
+                    return { id: doc.id, ...data }
                 })
                 setProductos(nuevosProductos);
             })
@@ -31,7 +31,7 @@ const ItemListContainer = (props) => {
             <ItemList productos={productos} />
         </>
     );
-   
+
 };
 
 

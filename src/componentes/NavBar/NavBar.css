@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Alumni+Sans+Inline+One:ital@0;1&family=Anton&family=Archivo+Black&family=Bangers&family=Barriecito&family=Black+Ops+One&family=Covered+By+Your+Grace&family=DynaPuff:wght@500;600;700&family=Fjalla+One&family=Grechen+Fuemen&family=Gruppo&family=Indie+Flower&family=Josefin+Sans:wght@500;600&family=Kalam:wght@300;400;700&family=Lilita+One&family=Monoton&family=Permanent+Marker&family=Rammetto+One&family=Readex+Pro:wght@300;500;600;700&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;1,300&family=Reem+Kufi+Ink&family=Righteous&family=Roboto:wght@300&family=Rowdies:wght@300;400;700&family=Rubik+80s+Fade&family=Rubik+Burned&family=Rubik+Dirt&family=Rubik+Mono+One&family=Rubik+Moonrocks&family=Rubik+Vinyl&family=Rubik+Wet+Paint&family=Sedgwick+Ave+Display&family=Sen:wght@400;700;800&family=Shadows+Into+Light&family=Sigmar&display=swap');
 
 
@@ -9,15 +8,15 @@ header {
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid white;
-   
-    
+
+
 }
 
 
 
 h1 {
     font-family: "Anton", sans-serif;
-    font-size:300px;       
+    font-size: 300px;
     color: white;
     text-decoration: none;
     margin-left: 3rem;
@@ -32,13 +31,12 @@ h1 {
 
 .otroColor a {
     color: white;
-    font-size: 20px;   
-    
+    font-size: 20px;
+
 }
 
 
 
 .log navbar-brand {
     color: white
-
 }

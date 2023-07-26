@@ -4,7 +4,7 @@
   background-color: black;
 }
 
-h1{
+h1 {
   color: white;
   text-decoration: none;
   font-size: 60px;
@@ -12,7 +12,7 @@ h1{
   margin-left: 3rem;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -30,6 +30,7 @@ h2 {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -55,33 +56,34 @@ h3 {
 
 }
 
-.front1{
+.front1 {
   color: white;
   font-family: 'Anton';
   font-size: 20px;
 }
-.front2{
+
+.front2 {
   font-size: 10px;
 }
 
-.btnProducto{
+.btnProducto {
   font-size: 18px;
   font-family: 'Anton';
 }
 
-.price{
+.price {
   text-align: center;
 }
 
-.idd{
+.idd {
   text-align: center;
 }
 
-.name{
+.name {
   text-align: center;
 }
 
-p{
+p {
   color: white;
   font-size: 28px;
   font-weight: bold;
@@ -109,25 +111,25 @@ p{
 .add {
 
   background-color: #c1101a;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 0.5rem 1rem;
-    margin-bottom: 3rem;
-    margin-left: 2rem;
-    margin-top: 1rem;
-    text-decoration: none;
-    text-align: center;
-    font-size: 1.5rem;
-    font-family: 'Anton';
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Anton';
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
 }
 
 
 img {
-  
-  margin: 2rem; 
+
+  margin: 2rem;
 }
 
 
@@ -136,20 +138,21 @@ h4 {
   color: white;
 }
 
-p.end{
+p.end {
   font-family: 'Anton';
-  
+
 }
 
-.del{
+.del {
   font-family: 'Anton';
   background-color: #c1101a;
   border-radius: 5px;
   margin-top: 2rem;
   margin-left: 2rem;
-  
+
 }
-.cheko{
+
+.cheko {
   font-family: 'Anton';
   background-color: #c1101a;
   border-radius: 5px;
@@ -158,7 +161,8 @@ p.end{
   color: white;
   height: 15px;
 }
-.fin{
+
+.fin {
   font-family: 'Anton';
   font-size: 25px;
   display: flex;
@@ -173,8 +177,7 @@ p.end{
   cursor: pointer;
 }
 
-.checko{
+.checko {
   font-family: 'Anton';
 
 }
-

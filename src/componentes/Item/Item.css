@@ -86,7 +86,7 @@ strong {
 }
 
 
-label.form{
+label.form {
     font-size: 2rem;
 }
 
@@ -108,6 +108,7 @@ label.form{
 .strong {
     font-size: 2rem;
 }
+
 .btnProducto {
     background-color: rgb(58, 57, 57);
     color: white;
@@ -187,6 +188,7 @@ li {
     font-size: 3rem;
     text-align: center;
 }
+
 .imgProducto {
     width: 15rem;
     height: auto;
@@ -210,4 +212,3 @@ h2 {
     margin: auto;
     padding: 2rem;
 }
-

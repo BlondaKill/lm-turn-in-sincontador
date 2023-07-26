@@ -8,13 +8,13 @@ import { useContext } from 'react';
 
 const ItemDetail = ({ id, nombre, precio, img, stock }) => {
   const [agregarCantidad, setAgregarCantidad] = useState(0);
-  const {agregarProducto} = useContext(CartContext);
+  const { agregarProducto } = useContext(CartContext);
 
 
   const manejadorCantidad = (cantidad) => {
     setAgregarCantidad(cantidad);
 
-  const item = {id, nombre, precio};
+    const item = { id, nombre, precio };
     agregarProducto(item, cantidad);
   }
 
@@ -26,10 +26,10 @@ const ItemDetail = ({ id, nombre, precio, img, stock }) => {
 
       <img src={img} alt={nombre} />
       {
-         agregarCantidad > 0 ? ( <div><Link className={"fin"} to="/cart"> Finalizar Compra </Link> <Link className={"fin"} to="/">Seguir comprando</Link></div>)
-         : (<ItemCount inicial={1} stock={stock} funcionAgregar={manejadorCantidad}/>)
-        }     
-      
+        agregarCantidad > 0 ? (<div><Link className={"fin"} to="/cart"> Finalizar Compra </Link> <Link className={"fin"} to="/">Seguir comprando</Link></div>)
+          : (<ItemCount inicial={1} stock={stock} funcionAgregar={manejadorCantidad} />)
+      }
+
     </div>
   )
 }

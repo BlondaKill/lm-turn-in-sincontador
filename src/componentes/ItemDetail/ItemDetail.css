@@ -1,7 +1,7 @@
-h2 .name{
+h2 .name {
     color: rgb(65, 123, 222);
     font-size: 20px;
-    
+
 
 }
 
@@ -10,8 +10,8 @@ h3 .price {
     color: blueviolet;
 
 }
-h3 .idd{
+
+h3 .idd {
     font-size: 8px;
 
 }
-
