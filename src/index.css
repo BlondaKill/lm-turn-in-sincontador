@@ -85,7 +85,7 @@ p{
   color: white;
   font-size: 28px;
   font-weight: bold;
-  margin-left: 75px;
+  margin: 0 10px;
 }
 
 .dec {
@@ -95,6 +95,7 @@ p{
   background-color: grey;
   cursor: pointer;
   margin-left: 4rem;
+  margin-top: 1rem;
   border: none;
   padding: 10px 20px;
   text-decoration: none;
@@ -113,8 +114,8 @@ p{
     border-radius: 5px;
     padding: 0.5rem 1rem;
     margin-bottom: 3rem;
-    margin-top: 1rem;
     margin-left: 2rem;
+    margin-top: 1rem;
     text-decoration: none;
     text-align: center;
     font-size: 1.5rem;
