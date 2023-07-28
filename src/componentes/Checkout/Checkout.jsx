@@ -103,16 +103,16 @@ const Checkout = () => {
                 <p> Total Compra: ${total}</p>
 
                 <div className="form-group">
-                    <label className="form" style={{ color: "white" }} htmlFor=""> Nombre  </label>
+                    <label className="form" style={{ color: "white" }} htmlFor=""> First Name  </label>
                     <input type="text" value={nombre} onChange={(e) => setNombre(e.target.value)} />
                 </div>
                 <div className="form-group" >
-                    <label className="form" style={{ color: "white" }} htmlFor=""> Apellido  </label>
+                    <label className="form" style={{ color: "white" }} htmlFor=""> Last Name  </label>
                     <input type="text" value={apellido} onChange={(e) => setApellido(e.target.value)} />
                 </div>
 
                 <div className="form-group">
-                    <label className="form" style={{ color: "white" }} htmlFor=""> Telefono </label>
+                    <label className="form" style={{ color: "white" }} htmlFor=""> Phone </label>
                     <input type="text" value={telefono} onChange={(e) => setTelefono(e.target.value)} />
                 </div>
 
@@ -122,7 +122,7 @@ const Checkout = () => {
                 </div>
 
                 <div className="form-group">
-                    <label className="form" style={{ color: "white" }} htmlFor=""> Confirm  </label>
+                    <label className="form" style={{ color: "white" }} htmlFor=""> Confirm Email  </label>
                     <input type="email" value={emailConfirmacion} onChange={(e) => setEmailConfirmacion(e.target.value)} />
                 </div>
 
@@ -130,7 +130,7 @@ const Checkout = () => {
                     error && <p style={{ color: "red" }}> {error} </p>
                 }
 
-                <button className="buttonform" style={{ color: "white" }} type="submit"> Finalizar Compra </button>
+                <button className="buttonform" style={{ color: "white" }} type="submit"> Submit </button>
 
             </form>
 
